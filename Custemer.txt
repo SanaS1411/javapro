@@ -1,0 +1,17 @@
+class Customer{
+public static void main(String[] args)
+{
+int itemA=200;
+int itemB=75;
+int itemC=500;
+\\total item a=2,itemb=1,itemc=3
+totalA=200*2;
+totalB=75*1;
+totalC=500*3;
+Total=totalA+totalB+totalC;
+System.out.println("withoutdis="+Total);
+\\discount
+discount=total*(10/100);
+System.out.print("discount="+discount);
+Gst=discound+(5/100);
+System.out.print(Gst);
